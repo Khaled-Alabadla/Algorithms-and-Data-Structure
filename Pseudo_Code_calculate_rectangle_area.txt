@@ -4,5 +4,5 @@ START
   Input number3
   Set total to number1 + number2 + number3
   Set average to total / 3
-  PRINT average
+  PRINT "The average is " + average
 END
