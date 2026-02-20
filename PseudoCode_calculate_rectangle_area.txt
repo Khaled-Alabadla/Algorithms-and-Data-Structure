@@ -1,6 +1,6 @@
 START
-  Input length
-  Input width
+  INPUT length
+  INPUT width
   Set area to length * width
-  PRINT "The area of the rectangle is " + area
+  OUTPUT area
 END
