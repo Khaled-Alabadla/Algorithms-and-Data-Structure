@@ -9,8 +9,8 @@ START
 
 Set sum to 0
 
-FOR i from 1 to n
-  to sum to sum + i
+FOR each number from 1 to n
+  Set sum to sum + number
 END FOR
 
 OUTPUT "The sum of all integers from 1 to " + n + " is: " + sum
