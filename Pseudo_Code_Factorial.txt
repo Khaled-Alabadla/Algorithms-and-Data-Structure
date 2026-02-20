@@ -5,7 +5,7 @@ START
   IF n < 0 THEN
     OUTPUT "Please enter a non-negative integer"
     EXIT
-  ENDIF
+  END IF
 
   IF n == 0 OR n == 1 THEN
     Set result to 1
@@ -13,8 +13,8 @@ START
     Set result to 1
     FOR i from 2 to n
       Set result to result * i
-    ENDFOR
-  ENDIF
+    END FOR
+  END IF
 
   OUTPUT "The factorial of " + n + " is: " + result
   

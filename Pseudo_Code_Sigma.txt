@@ -7,12 +7,12 @@ START
     EXIT
   ENDIF
 
-  Set sum to 0
+Set sum to 0
 
-  FOR i from 1 to n
-    Set sum to sum + i
-  ENDFOR
+FOR i from 1 to n
+  to sum to sum + i
+ENDFOR
 
-  OUTPUT "The sum of all integers from 1 to " + n + " is: " + sum
+OUTPUT "The sum of all integers from 1 to " + n + " is: " + sum
 
 END
