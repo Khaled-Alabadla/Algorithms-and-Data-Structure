@@ -1,8 +1,8 @@
 START
-  Input number1
-  Input number2
-  Input number3
+  INPUT number1
+  INPUT number2
+  INPUT number3
   Set total to number1 + number2 + number3
   Set average to total / 3
-  PRINT "The average is " + average
+  OUTPUT average
 END
