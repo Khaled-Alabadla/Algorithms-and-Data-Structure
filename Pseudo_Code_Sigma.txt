@@ -5,13 +5,13 @@ START
   IF n < 1 THEN
     OUTPUT "Please enter a positive integer"
     EXIT
-  ENDIF
+  END IF
 
 Set sum to 0
 
 FOR i from 1 to n
   to sum to sum + i
-ENDFOR
+END FOR
 
 OUTPUT "The sum of all integers from 1 to " + n + " is: " + sum
 
