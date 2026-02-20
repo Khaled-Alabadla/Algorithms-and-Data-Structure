@@ -1,0 +1,6 @@
+START
+  Input length
+  Input width
+  Set area to length * width
+  PRINT "The area of the rectangle is " + area
+END
