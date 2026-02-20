@@ -1,0 +1,21 @@
+START
+
+  INPUT n
+
+  IF n < 0 THEN
+    OUTPUT "Please enter a non-negative integer"
+    EXIT
+  ENDIF
+
+  IF n == 0 OR n == 1 THEN
+    Set result to 1
+  ELSE
+    Set result to 1
+    FOR i from 2 to n
+      Set result to result * i
+    ENDFOR
+  ENDIF
+
+  OUTPUT "The factorial of " + n + " is: " + result
+  
+END
