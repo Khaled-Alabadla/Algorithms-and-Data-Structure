@@ -7,12 +7,12 @@ START
     EXIT
   END IF
 
-  IF n == 0 OR n == 1 THEN
+  IF n equals 0 OR n equals 1 THEN
     Set result to 1
   ELSE
     Set result to 1
-    FOR i from 2 to n
-      Set result to result * i
+    FOR each number from 2 to n
+      Set result to result * number
     END FOR
   END IF
 
