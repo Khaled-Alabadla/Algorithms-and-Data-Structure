@@ -61,7 +61,7 @@ console.log("Ascending order: " + scores);
 scores.sort((a, b) => b - a);
 console.log("Descending order " + scores);
 
-let names = ["Shatha", "Sara", "Lina", "Sami", "Dalia"];
+let names = ["Khaled", "Bilal", "Ali", "Ahmed", "Salah"];
 console.log(names.sort());
 
 console.log("=====================================");
