@@ -200,14 +200,14 @@ let j = 0;
 
 while (i < a.length && j < b.length) {
   if (a[i] < b[j]) {
-    mergedAndSortedArray.push(a[i]);
-    i++;
+    mergedAndSortedArray.push(a[i])
+    i++
   } else {
-    mergedAndSortedArray.push(b[j]);
-    j++;
+    mergedAndSortedArray.push(b[j])
+    j++
   }
 }
 
-mergedAndSortedArray.push(...a.slice(i), ...b.slice(j));
+mergedAndSortedArray.push(...a.slice(i), ...b.slice(j))
 
-console.log(mergedAndSortedArray);
+console.log(i, j, mergedAndSortedArray)

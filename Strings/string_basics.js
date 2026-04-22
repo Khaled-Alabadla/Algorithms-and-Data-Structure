@@ -15,7 +15,7 @@ console.log(removeBlanks("Axsos academy is great !!"));
 function getDigits(str) {
   let result = "";
   for (let i = 0; i < str.length; i++) {
-    if (str[i] != " " && !isNaN(Number(str[i]))) {
+    if (str[i] >= "0" && str[i] <= "9") {
       result += str[i];
     }
   }
