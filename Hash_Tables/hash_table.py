@@ -7,7 +7,6 @@ class MyHashMap:
         # We use a prime number for the size to help distribute keys better
         self.size = 2069
         # Create a list of lists
-        self.table = [[] for i in range(self.size)]
 
     def _get_hash(self, key: int) -> int:
         """
