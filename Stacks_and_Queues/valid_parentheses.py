@@ -7,7 +7,7 @@
 # Every close bracket has a corresponding open bracket of the same type.
 
 def isValid(s: str) -> bool:
-    stack = []
+    stack = ['']
     
     for char in s:
         # 1. If it's an opening bracket, push it onto the stack
